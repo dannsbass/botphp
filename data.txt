@@ -1,0 +1,34 @@
+token = 9876543210:AbCdEfGhIjKlMnOpQrStUvWxYz
+
+username = namabot
+
+PESAN TEKS
+
+/start  -> Selamat datang [pilihan 1|pilihan_1] [PHP|https://php.net] # [pilihan 2|pilihan_2]
+
+/menu -> Silahkan pilih\menu berikut [satu] [dua] # [tiga] [empat] # [lima]
+
+/link -> Silahkan pilih link berikut [Google|https://www.google.com] [dua|2] # [tiga|3] [empat|4] # [lima|5]
+
+/tutorial -> Berikut ini link tutorial [Danns Net | https://dannsnet.wordpress.com] [Tutorial 2|https://tutorial2.com] # [Tutorial 3 | https://tutorial3.com]
+
+lima -> Anda menulis lima
+
+CALLBACK
+
+pilihan_1 => Anda memilih pilihan 1 [Google|https://www.google.com] [dua|2] # [tiga|3] [empat|4] # [lima|5]
+pilihan_2 => Anda memilih pilihan 2 [Danns Net | https://dannsnet.wordpress.com] [Tutorial 2|https://tutorial2.com] # [Tutorial 3 | https://tutorial3.com]
+2 => Anda memilih dua [Google|https://www.google.com] [dua|2] # [tiga|3] [empat|4] # [lima|5]
+3 => Anda memilih tiga [Danns Net | https://dannsnet.wordpress.com] [Tutorial 2|https://tutorial2.com] # [Tutorial 3 | https://tutorial3.com]
+4 => Anda memilih empat[Google|https://www.google.com] [dua|2] # [tiga|3] [empat|4] # [lima|5]
+5 => Anda memilih lima [satu] [dua] # [tiga] [empat] # [lima]
+
+===[ KETERANGAN ]===
+
+1. Baris sebelah kiri adalah daftar input, sedangkan baris sebelah kanan adalah daftar respon.
+
+2. Input dan respon harus berada pada satu baris.
+
+3. Untuk mengganti baris, gunakan tanda \ (escape), contoh: ini baris 1\ini baris 2\ini baris 3
+
+4. Format Reply Keyboard adalah [teks] sedangkan format Inline Keyboard adalah [teks luar|teks dalam] atau [teks luar|https://terserah.kamu/isi_sesuai/alamat-yang.benar]
