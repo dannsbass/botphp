@@ -11,12 +11,12 @@
  * 
  * SYARAT PAKAI
  * 
- * 1. Di komputer harus sudah terinstal PHP
+ * 1. Di komputer harus sudah terinstal PHP 5.4 ke atas
  * 
  * CARA PAKAI
  * 
  * 1. Buat file bernama `data.txt` di folder yang sama dengan file ini.
- * 2. Masukkan data bot, contoh:
+ * 2. Masukkan data berikut:
  * 
  * DATA BOT
  * 
