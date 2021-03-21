@@ -2,7 +2,9 @@
 Bot Telegram sederhana dengan bahasa PHP
 
 # Syarat pakai
-                                         1. Di komputer harus sudah terinstal PHP 5.4 ke atas                                                                          CARA PAKAI
+1. Di komputer harus sudah terinstal PHP 5.4 ke atas
+
+#Cara pakai
 1. Buat file baru bernama `data.txt` di folder yang sama dengan file ini.
 2. Masukkan data berikut:
 
@@ -13,7 +15,6 @@ token = ... (token bot anda)
 username = ... (username bot anda)
 
 # Respon untuk pesan teks
-
 Untuk membuat respon atas teks kiriman user, gunakan format berikut:
 
 teks user -> respon bot [tombol]
@@ -29,7 +30,6 @@ CONTOH
 lima -> Anda menulis lima
 
 # Respon untuk Callback Query
-
 Untuk membuat respon atas tombol yang ditekan oleh user, gunakan format berikut:
 
 data tombol => respon
