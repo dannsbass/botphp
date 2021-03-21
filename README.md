@@ -4,7 +4,7 @@ Bot Telegram sederhana dengan bahasa PHP
 # Syarat pakai
 1. Di komputer harus sudah terinstal PHP 5.4 ke atas
 
-#Cara pakai
+# Cara pakai
 1. Buat file baru bernama `data.txt` di folder yang sama dengan file ini.
 2. Masukkan data berikut:
 
